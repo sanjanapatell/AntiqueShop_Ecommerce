@@ -1,0 +1,261 @@
+body {
+  font-family: Palatino Linotype, serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(13,13,12,255)
+  padding: 0;
+  margin: 0;
+}
+
+.meander-div {
+  width: 15vw;
+  height: 30vh;
+  position: relative;
+  top: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.meander-img {
+  width: 12vw;
+  height: 30vh;;
+}
+
+.container {
+  width: 70vw;
+}
+
+
+#upper-section, #main-menu, #footer-list, .img-sections{
+  display: flex;
+}
+
+#upper-section {
+  height: 30vh;
+  align-items: flex-end;
+  justify-content: center;
+  background: url('https://images.pexels.com/photos/40504/living-room-victorian-historic-vintage-40504.jpeg?cs=srgb&dl=pexels-pixabay-40504.jpg&fm=jpg') center;
+  background-size: 100%;
+}
+
+.sections-menu:hover {
+  cursor: pointer;
+}
+
+
+
+.lower-sections:not(#lower-section-intro) {
+  display: none;
+  background: rgba(255, 212, 108, 1);
+  border: 2px solid rgba(191, 154, 6, 1);
+  padding: 6vh 3vw 6vh 3vw !important;
+}
+
+
+
+
+
+
+
+
+#divider{
+  height: 1.5vh;
+  border-radius: 25px;
+  margin: 2vh 0 2vh 0;
+  background-color:rgba(255, 212,108,1);
+  border: 2px solid rgba(191, 154, 6, 1);
+}
+
+#lower-section-intro {
+  background: rgba(255, 212,108,1);
+  padding: 6vh 6vw 4vh 6vw;
+  border: 2px solid rgba(191, 154, 6, 1);
+}
+
+
+
+
+
+#menu-bar {
+  background-color: rgba(255, 202, 108, 0.6);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#main-menu {
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+li {
+  padding: 1vh 1vw 1vh 1vw;
+}
+
+#main-menu li:hover {
+  background-color: rgba(215, 215, 0, 0.6);
+}
+
+#main-menu li:first-child:hover {
+  border-top-left-radius: 10px;
+}
+
+#main-menu li:last-child:hover {
+  border-top-right-radius: 10px;
+}
+
+
+
+
+
+
+.intro-head {
+  text-align: center;
+  padding-bottom: 8vh;
+}
+
+#intro-img {
+  float: left;
+  padding: 0 2vw 1vh 0;
+}
+
+.introp {
+  text-align: justify;
+}
+
+
+
+
+
+
+.img-sections, #lower-section-other {
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 2vh 2vw 2vh 2vw;
+}
+
+.img-sections other {
+  margin-top: 5vh;
+}
+
+
+
+
+
+#product-list-div {
+  margin: 2vh 2vw 2vh 2vw;
+}
+
+
+#product-list {
+  list-style: none;
+  padding: 1vh 0 1vh 0;
+}
+
+
+.first-three-furn {
+   border-top: 2px;
+   border-right: 2px;
+   border-bottom: 0;
+   border-left: 2px;
+   border-style: solid; 
+   border-color: rgba(59,74,32,1);
+}
+
+#product-list > li {
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  background-color: rgba(118,136,88,0.5);
+  text-align: center;
+}
+
+#product-list > li:last-child {
+  border: 2px solid rgba(59,74,32,1);
+}
+
+
+#product-list  li:hover, #furn-list  li:focus {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.img-product:hover, .img-other:hover {
+  cursor: pointer;
+}
+
+.img-product {
+  padding: 3vh 0 3vh 0;
+}
+
+.input {
+  margin: 0 0 4vh 0;
+}
+
+#lower-section-contact {
+  justify-content: space-around;
+}
+
+#contact-div-one {
+  width: 50%;
+  margin-right: 5vw;
+}
+
+#contact-div-two {
+  width: 50%;
+}
+
+#name, #email {
+  width: 60%;
+}
+
+#message {
+  width: 75%;
+  height: 15em;
+}
+
+#form {
+  padding-top: 5vh;
+}
+
+
+#footer-list {
+  list-style: none;
+  justify-content: space-around;
+  border-radius: 20px;
+  font-size: 2.5vh;
+  padding: 1vh 0 1vh 0;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(59,74,32,1);
+}
+
+#copyright {
+  text-align: center;
+  color: rgba(218,165,32,1);
+  padding-top: 1vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+  
+  #intro-img {
+    width: 55%;
+  }
+  
+  .img-product,{
+    width: 40%;
+  }
+}
+
+
+
+
+
+
